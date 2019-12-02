@@ -1,0 +1,16 @@
+E:\projects\vs2017\winform\WindowsFormsApp2\AsmxWsInterceptor\bin\Debug\AsmxWsInterceptor.dll
+E:\projects\vs2017\winform\WindowsFormsApp2\AsmxWsInterceptor\bin\Debug\AsmxWsInterceptor.pdb
+E:\projects\vs2017\winform\WindowsFormsApp2\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.csproj.CoreCompileInputs.cache
+E:\projects\vs2017\winform\WindowsFormsApp2\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.dll
+E:\projects\vs2017\winform\WindowsFormsApp2\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.pdb
+G:\MyProjects\Vs2017\Winform\WindowsFormsApp2\AsmxWsInterceptor\bin\Debug\AsmxWsInterceptor.dll
+G:\MyProjects\Vs2017\Winform\WindowsFormsApp2\AsmxWsInterceptor\bin\Debug\AsmxWsInterceptor.pdb
+G:\MyProjects\Vs2017\Winform\WindowsFormsApp2\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.csproj.CoreCompileInputs.cache
+G:\MyProjects\Vs2017\Winform\WindowsFormsApp2\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.dll
+G:\MyProjects\Vs2017\Winform\WindowsFormsApp2\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.pdb
+G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\AsmxWsInterceptor\bin\Debug\AsmxWsInterceptor.dll
+G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\AsmxWsInterceptor\bin\Debug\AsmxWsInterceptor.pdb
+G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.csprojAssemblyReference.cache
+G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.csproj.CoreCompileInputs.cache
+G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.dll
+G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.pdb
