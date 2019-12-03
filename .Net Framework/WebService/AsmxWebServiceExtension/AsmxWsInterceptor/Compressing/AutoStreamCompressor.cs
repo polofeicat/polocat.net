@@ -18,10 +18,8 @@ namespace AsmxWsInterceptor.Compressing
         /// <summary>
         /// 对即将发送到网络上的数据进行压缩处理，自动判断本次所发送的
         /// 数据量是否有必要进行压缩处理，若传送数据量较大需要进行压缩时，
-
         /// 在有效数据里开头部分加入压缩标记的长度和压缩标记（一个字符串），
         /// 以便接受端在收到数据时能进行识别进入的数据流是否为已压缩流。
-
         /// </summary>
         /// <param name="inputStream"></param>
         /// <param name="outputStream"></param>
@@ -51,18 +49,15 @@ namespace AsmxWsInterceptor.Compressing
             else
             {
                 // 简单的将输入流拷贝到输出流中去。
-
                 InternalNormalProcessStream(inputStream, outputStream, emptyBuffer);
             }
         }
 
         /// <summary>
         /// 将从网络中接收过来的数据流解压缩，自动识别数据流流的标头，
-
         /// 若标头含有表示符号”MustDecompressed“和其长度则需要将
         /// 接收到的数据流进行解压处理，若标头并不含有压缩识别符号，
         /// 则不进行压缩处理。
-
         /// </summary>
         /// <param name="inputStream"></param>
         /// <param name="outputStream"></param>
@@ -99,7 +94,6 @@ namespace AsmxWsInterceptor.Compressing
                 int indicatorSize = BitConverter.ToInt32(bIndicatorSize, 0);
 
                 // 识别出数据流压缩标记长度。
-
                 if (indicatorSize == CompressedIndicator.Length)
                 {
                     byte[] bIndicator = new byte[indicatorSize];
