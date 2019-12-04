@@ -7,6 +7,9 @@ using System.IO.Compression;
 
 namespace AsmxWsInterceptor.Compressing
 {
+    /// <summary>
+    /// 
+    /// </summary>
     internal class AlwaysStreamCompressor : StreamCompressor
     {
 
