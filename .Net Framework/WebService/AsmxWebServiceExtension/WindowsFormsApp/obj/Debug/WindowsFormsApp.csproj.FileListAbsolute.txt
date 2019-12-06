@@ -24,3 +24,16 @@ G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\W
 G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
 G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
 G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\bin\Debug\AsmxWsInterceptor.dll
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\bin\Debug\AsmxWsInterceptor.pdb
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
