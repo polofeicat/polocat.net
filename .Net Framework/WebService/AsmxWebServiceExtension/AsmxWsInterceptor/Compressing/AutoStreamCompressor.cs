@@ -117,7 +117,6 @@ namespace AsmxWsInterceptor.Compressing
                         }
 
                         // 压缩处理完毕，此时必须返回。
-
                         return;
                     }
                 }

@@ -47,3 +47,8 @@
 .Net Framework/WebService/AsmxWebServiceExtension/.vs/AsmxWebServiceExtension/v15/Server/sqlite3/storage.ide
 .Net Framework/WebService/AsmxWebServiceExtension/.vs/AsmxWebServiceExtension/v15/Server/sqlite3/storage.ide-shm
 .Net Framework/WebService/AsmxWebServiceExtension/.vs/AsmxWebServiceExtension/v15/Server/sqlite3/storage.ide-wal
+*.ide-wal
+*.ide-shm
+.Net Framework/WebService/AsmxWebServiceExtension/.vs/AsmxWebServiceExtension/v15/.suo
+.Net Framework/WebService/AsmxWebServiceExtension/.vs/AsmxWebServiceExtension/v15/Server/sqlite3/storage.ide-shm
+.Net Framework/WebService/AsmxWebServiceExtension/.vs/AsmxWebServiceExtension/v15/Server/sqlite3/storage.ide-wal
