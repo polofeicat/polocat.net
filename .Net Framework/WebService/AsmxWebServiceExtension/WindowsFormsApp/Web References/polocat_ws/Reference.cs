@@ -23,13 +23,15 @@ namespace WindowsFormsApp.polocat_ws {
     
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.3062.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.3752.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Web.Services.WebServiceBindingAttribute(Name="WebService1Soap", Namespace="http://tempuri.org/")]
     public partial class WebService1 : System.Web.Services.Protocols.SoapHttpClientProtocol {
         
         private System.Threading.SendOrPostCallback GreetingHelloOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback GetUserNameByIdOperationCompleted;
         
         private bool useDefaultCredentialsSetExplicitly;
         
@@ -73,6 +75,9 @@ namespace WindowsFormsApp.polocat_ws {
         public event GreetingHelloCompletedEventHandler GreetingHelloCompleted;
         
         /// <remarks/>
+        public event GetUserNameByIdCompletedEventHandler GetUserNameByIdCompleted;
+        
+        /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/GreetingHello", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string GreetingHello(string message) {
             object[] results = this.Invoke("GreetingHello", new object[] {
@@ -102,6 +107,35 @@ namespace WindowsFormsApp.polocat_ws {
         }
         
         /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/GetUserNameById", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public string GetUserNameById(string id) {
+            object[] results = this.Invoke("GetUserNameById", new object[] {
+                        id});
+            return ((string)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void GetUserNameByIdAsync(string id) {
+            this.GetUserNameByIdAsync(id, null);
+        }
+        
+        /// <remarks/>
+        public void GetUserNameByIdAsync(string id, object userState) {
+            if ((this.GetUserNameByIdOperationCompleted == null)) {
+                this.GetUserNameByIdOperationCompleted = new System.Threading.SendOrPostCallback(this.OnGetUserNameByIdOperationCompleted);
+            }
+            this.InvokeAsync("GetUserNameById", new object[] {
+                        id}, this.GetUserNameByIdOperationCompleted, userState);
+        }
+        
+        private void OnGetUserNameByIdOperationCompleted(object arg) {
+            if ((this.GetUserNameByIdCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.GetUserNameByIdCompleted(this, new GetUserNameByIdCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
         public new void CancelAsync(object userState) {
             base.CancelAsync(userState);
         }
@@ -121,11 +155,11 @@ namespace WindowsFormsApp.polocat_ws {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.3062.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.3752.0")]
     public delegate void GreetingHelloCompletedEventHandler(object sender, GreetingHelloCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.3062.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.3752.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GreetingHelloCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -133,6 +167,32 @@ namespace WindowsFormsApp.polocat_ws {
         private object[] results;
         
         internal GreetingHelloCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public string Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((string)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.3752.0")]
+    public delegate void GetUserNameByIdCompletedEventHandler(object sender, GetUserNameByIdCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.3752.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class GetUserNameByIdCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal GetUserNameByIdCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
                 base(exception, cancelled, userState) {
             this.results = results;
         }

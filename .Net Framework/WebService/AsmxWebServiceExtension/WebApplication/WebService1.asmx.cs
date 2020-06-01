@@ -17,10 +17,32 @@ namespace WebApplication
     public class WebService1 : System.Web.Services.WebService
     {
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
         [WebMethod]
         public string GreetingHello(String message)
         {
             return "Hello World " + message;
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [WebMethod]
+        public string GetUserNameById(string id)
+        {
+            if (id.Equals("tomcat", StringComparison.OrdinalIgnoreCase))
+            {
+                throw new ApplicationException("no user named tomcat");
+            }
+            
+            return "user [" + id + "]";
         }
     }
 }

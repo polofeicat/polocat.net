@@ -16,6 +16,20 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="GetUserNameById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserNameByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserNameByIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="GreetingHelloSoapIn">
@@ -24,10 +38,20 @@
   <wsdl:message name="GreetingHelloSoapOut">
     <wsdl:part name="parameters" element="tns:GreetingHelloResponse" />
   </wsdl:message>
+  <wsdl:message name="GetUserNameByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserNameById" />
+  </wsdl:message>
+  <wsdl:message name="GetUserNameByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserNameByIdResponse" />
+  </wsdl:message>
   <wsdl:portType name="WebService1Soap">
     <wsdl:operation name="GreetingHello">
       <wsdl:input message="tns:GreetingHelloSoapIn" />
       <wsdl:output message="tns:GreetingHelloSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserNameById">
+      <wsdl:input message="tns:GetUserNameByIdSoapIn" />
+      <wsdl:output message="tns:GetUserNameByIdSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
@@ -41,11 +65,29 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetUserNameById">
+      <soap:operation soapAction="http://tempuri.org/GetUserNameById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="GreetingHello">
       <soap12:operation soapAction="http://tempuri.org/GreetingHello" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserNameById">
+      <soap12:operation soapAction="http://tempuri.org/GetUserNameById" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

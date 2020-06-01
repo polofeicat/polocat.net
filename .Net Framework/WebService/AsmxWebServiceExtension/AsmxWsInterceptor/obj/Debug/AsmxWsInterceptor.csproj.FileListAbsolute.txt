@@ -16,7 +16,6 @@ G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug
 G:\MyProjects\Vs2017\Winform\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.pdb
 D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\AsmxWsInterceptor\bin\Debug\AsmxWsInterceptor.dll
 D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\AsmxWsInterceptor\bin\Debug\AsmxWsInterceptor.pdb
-D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.csprojAssemblyReference.cache
 D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.csproj.CoreCompileInputs.cache
 D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.dll
 D:\MyGitHub\polocat.net\.Net Framework\WebService\AsmxWebServiceExtension\AsmxWsInterceptor\obj\Debug\AsmxWsInterceptor.pdb

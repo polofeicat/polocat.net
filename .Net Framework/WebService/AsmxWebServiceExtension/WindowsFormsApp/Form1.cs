@@ -21,7 +21,6 @@ namespace WindowsFormsApp
         {
             try
             {
-                polocat_ws.WebService1 ws = new polocat_ws.WebService1();
                 string s1 = ws.GreetingHello("polocat");
                 textBox1.Text = s1;
             }
@@ -32,9 +31,18 @@ namespace WindowsFormsApp
 
         }
 
+
+        private polocat_ws.WebService1 ws;
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            ws = new polocat_ws.WebService1();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string s1 = ws.GetUserNameById("tomcat");
+            MessageBox.Show(s1);
         }
     }
 }
